@@ -1,0 +1,6 @@
+1) We need 2 loops to solve this problem
+2) Outer loop is for blocks json array
+3) inner loop is for reqs array.
+4) in each step of outer loop we will take one block and run inner loop in reqs array to check for requirements match in current block json object.
+4) we will continue outer loop unless we found all reqs true or we reach end of loop.
+6) after every inner loop we will check for requirement match count and update the maxReqsMatchCount so that if we did not get all requirements satisfied then can check for max reqs match.
